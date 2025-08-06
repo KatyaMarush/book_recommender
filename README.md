@@ -2,7 +2,7 @@
 
 An intelligent book recommendation system that uses semantic search and emotional analysis to suggest books based on user preferences.
 
-## 🚀 Features
+## Features
 
 - **Semantic Search**: Find books using natural language descriptions
 - **Category Filtering**: Filter recommendations by book categories
@@ -10,7 +10,7 @@ An intelligent book recommendation system that uses semantic search and emotiona
 - **Interactive Dashboard**: User-friendly Gradio interface
 - **AI-Powered**: Uses OpenAI embeddings and LangChain for semantic understanding
 
-## 📊 Data
+## Data
 
 The system uses a dataset of 7,000+ books with metadata including:
 - Book titles, authors, and descriptions
@@ -19,7 +19,7 @@ The system uses a dataset of 7,000+ books with metadata including:
 - Emotional analysis scores
 - Book covers and thumbnails
 
-## 🛠️ Setup
+## Setup
 
 1. **Clone the repository**
    ```bash
@@ -61,7 +61,7 @@ The system uses a dataset of 7,000+ books with metadata including:
    OPENAI_API_KEY=your_api_key_here
    ```
 
-## 🚀 Usage
+## Usage
 
 ### Web Dashboard
 After running all notebooks, launch the interactive Gradio dashboard:
@@ -75,7 +75,7 @@ python gradio-dashboard.py
 3. **`text-classification.ipynb`**: Text classification models
 4. **`sentiment-analysis.ipynb`**: Emotional content analysis
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 book-recommender/
@@ -92,7 +92,7 @@ book-recommender/
     └── tagged_description.txt
 ```
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python**: Core programming language
 - **Gradio**: Web interface framework
@@ -102,7 +102,7 @@ book-recommender/
 - **ChromaDB**: Vector database for similarity search
 - **Transformers**: NLP models for text analysis
 
-## 📈 How It Works
+## How It Works
 
 1. **Data Processing**: Books are analyzed for categories and emotional content
 2. **Semantic Embeddings**: Book descriptions are converted to vector embeddings
@@ -110,7 +110,7 @@ book-recommender/
 4. **Filtering**: Results are filtered by category and emotional tone
 5. **Ranking**: Books are ranked by relevance and emotional scores
 
-## 🎯 Example Usage
+## Example Usage
 
 1. Run the notebooks in order to prepare data
 2. Launch the Gradio dashboard: `python gradio-dashboard.py`
@@ -119,10 +119,10 @@ book-recommender/
 5. Choose emotional tone: "Happy"
 6. Get personalized book recommendations with covers and descriptions
 
-## 📝 License
+## License
 
 This project is for educational and research purposes.
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to submit issues and enhancement requests! 
